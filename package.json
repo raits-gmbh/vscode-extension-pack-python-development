@@ -6,13 +6,17 @@
     },
     "publisher": "raits",
     "repository": {
-        "url": "https://github.com/raits-gmbh/vscode-extension-pack-angular-development"
+        "url": "https://github.com/raits-gmbh/vscode-extension-pack-python-development"
+    },
+    "bugs": {
+        "url": "https://github.com/raits-gmbh/vscode-extension-pack-python-development/issues"
     },
     "license": "MIT",
     "name": "python-development",
     "displayName": "Python Development Extension Pack",
     "description": "Extensions related to python development",
-    "version": "0.0.1",
+    "version": "0.0.2",
+	"homepage": "https://github.com/raits-gmbh/vscode-extension-pack-python-development",
     "engines": {
         "vscode": "^1.55.0"
     },
@@ -20,12 +24,36 @@
         "Extension Packs"
     ],
     "keywords": [
-      "raits"
+      "raits",
+	  "python",
+	  "pip",
+	  "django",
+	  "jinja",
+	  "cython"
     ],
     "extensionPack": [ 
         "ms-python.python",
+		"ms-python.vscode-pylance",
+		"donjayamanne.python-environment-manager",
+		"slightc.pip-manager",
+		"mgesbert.python-path",
         "kevinrose.vsc-python-indent",
-        "dongli.python-preview",
-        "ms-toolsai.jupyter"
+		"njqdev.vscode-python-typehint",
+		"Bar.python-import-helper",
+		"ms-python.isort",
+		"njpwerner.autodocstring",
+		"DiogoNolasco.pyinit",
+		"cstrap.python-snippets",
+		"EliazBobadilla.python-ultisnippets",
+		"EricSia.pythonsnippets3",
+		"benjamin-simmonds.pythoncpp-debug",
+		"kaih2o.python-resource-monitor",
+		"littlefoxteam.vscode-python-test-adapter",
+		"almenon.arepl",
+		"RickyWhite.python-template-snippets",
+		"batisteo.vscode-django",
+		"wholroyd.jinja",
+		"ms-toolsai.vscode-ai",
+		"guyskk.language-cython"
     ]
 }
